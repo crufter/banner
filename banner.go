@@ -99,7 +99,6 @@ func (b Banner) print(text string, printOut bool) string {
 	}
 	ret := ""
 	// Render
-	fmt.Println(bannerMaxHeight)
 	for i := 0; i < bannerMaxHeight-1; i++ {
 		thisLin := ""
 		for _, v := range text {
